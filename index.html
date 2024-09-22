@@ -4,10 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="icon" href="img/logo-navbar.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Kelompok Oleng</title>
 </head>
 <body class="bg-background font-inter">
+    <!-- Navbar -->
+    <nav class="lg:mx-40">
+        <span class="text-2xl flex justify-between items-center">
+            <a href="index.html"><img src="img/logo-navbar.png" alt="" class="relative mx-50 md:size-40 lg:max-w-[300px];"></a>
+            <ion-icon name="menu" class="mx-20 md:hidden" onclick="Menu(this)"></ion-icon>
+            <ul class="text-center justify-center hidden md:flex">
+                <li class="my-6 mx-4">
+                    <a href="index.html" class="text-lg text-white font-bold hover:underline">HOME</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="pages/about.html" class="text-lg text-white font-bold hover:underline">ABOUT</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="pages/member.html" class="text-lg text-white font-bold hover:underline">MEMBER</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="pages/gallery.html" class="text-lg text-white font-bold hover:underline">GALLERY</a>
+                </li>
+             </ul>
+        </span>
+        <ul name="navRes" class="bg-dark-blue mx-4 max-w-[500px] rounded-lg text-center justify-center mx-[30px] px-[150px] py-10 absolute hidden">
+            <li class="my-6 mx-4">
+                <a href="index.html" class="text-lg text-white font-bold hover:underline">HOME</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="pages/about.html" class="text-lg text-white font-bold hover:underline">ABOUT</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="pages/member.html" class="text-lg text-white font-bold hover:underline">MEMBER</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="pages/gallery.html" class="text-lg text-white font-bold hover:underline">GALLERY</a>
+            </li>
+         </ul>
+    </nav>
+    <!-- Akhir Navbar -->
 
+    <!-- Hero Section -->
+    <section name="home" id="home" class="">
+        <span class="md:absolute z-10 text-center inset-0 mt-20 lg:mt-40">
+        <h1 class="text-dark-blue font-bold text-4xl mt-20 text-center inset-0 md:text-6xl">KELOMPOK<br>OLENG</h1>
+        <p class="text-white font-bold text-2xl mt-4 text-center inset-0 md:text-4xl">Grup Nongkrong Yang<br>Asik (Katanya)</p>
+        <p class="text-white text-sm mt-4 text-center inset-0 md:text-md">Deskripsi singkat tentang grup<br>ini yang gw sendiri nggak tau<br>
+            apa yang harus ditulis disini</p>
+        </span>
+        <img src="img/illust-1.png" class="opacity-100 mt-6 md:mx-6 opacity-50 z-1 lg:mx-20" alt="">
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- Child Section -->
+    <section>
+        <div class="md:flex justify-between items-center lg:bg-grey">
+        <div class="relative bg-grey py-4 mx-10 rounded-lg md:py-2 mx-10 lg:mx-64">
+            <h1 class="text-white text-2xl font-bold mt-20 text-center md:text-4xl md:px-2">KENAPA OLENG?</h1>
+            <p class="text-white text-sm mt-4 font-sm text-center mb-6 md:text-md md:px-2">Deskripsi singkat tentang grup ini<br>
+                yang gw sendiri nggak tau<br>
+                apa yang harus ditulis disini yang penting nggak<br>
+                keliatan kosong deh, nah gini kan seenggaknya <br>
+                bagus kayak HP<br>
+                Realme lecet dikit nego up to 200K COD Area<br>
+                Jabodetabek, Kalimantan, Sulawesi, Tokyo</p>
+        </div>
+
+        <img src="img/video-call.png" class="opacity-100 mt-10 mx-auto md:opacity-50" alt="">
+        </div>
+
+        <h1 class="text-white mt-10 text-2xl font-bold text-center inset-0">OUR PARTNER</h1>
+        <div class="flex flex-row flex-wrap justify-center">
+            <img src="img/discord-round-color-icon 1.png" alt="" class="bg-white py-4 px-4 rounded-lg mt-6 mx-auto drop-shadow-lg">
+            <img src="img/twitch-color-icon 1.png" alt="" class="bg-white py-4 px-4 rounded-lg mt-6 mx-auto drop-shadow-lg">
+            <img src="img/nvidia-icon 1.png" alt="" class="bg-white py-4 px-4 rounded-lg mt-6 mx-auto drop-shadow-lg">
+        </div>
+    </section>
+    <!-- Akhir Child Section -->
+
+    <!-- Footer -->
+    <section class="mt-20">
+        <div class="ml-6">
+            <span class="flex flex-row">
+                <img src="img/instagram-logo.png" alt="" class="max-w-[40px] lg:max-w-[70px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-xl mt-4">@kelompokoleng</p>
+            </span>
+            <span class="flex flex-row mt-4">
+                <img src="img/discord-logo.png" alt="" class="max-w-[40px] lg:max-w-[70px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-xl mt-4">Warkop Oleng</p>
+            </span>
+        </div>
+        <span class="flex flex-row justify-center">
+            <img src="img/logo-footer.png" alt="" class="max-w-[100px]">
+            <p class="text-white text-center font-bold text-sm my-10">Made With ❤️ by Kelompok Oleng</p>
+        </span>
+    </section>
+    <!-- Akhir Footer -->
+
+
+     <script>
+        function Menu(e) {
+            let list = document.querySelector('ul[name="navRes"]');
+
+            e.name === 'menu' ? (e.name = "close", list.classList.remove('hidden')) : (e.name = "menu" , list.classList.add('hidden'))
+        }
+     </script>
 </body>
 </html>
