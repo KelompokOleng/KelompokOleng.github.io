@@ -4,10 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/output.css">
-    <link rel="icon" href="../img/logo-navbar.png">
-    <title>Member</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon" href="../img/logo-tab.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Member | KelompokOleng</title>
 </head>
 <body class="bg-background font-inter">
+    <!-- Navbar -->
+    <nav class="z-0 lg:mx-40">
+        <span class="text-2xl flex justify-between items-center">
+            <a href="index.html"><img src="../img/logo-navbar.png" alt="" class="relative mx-50 md:size-40 lg:max-w-[300px];"></a>
+            <ion-icon name="menu" class="mx-20 md:hidden" onclick="Menu(this)"></ion-icon>
+            <ul class="text-center justify-center hidden md:flex">
+                <li class="my-6 mx-4">
+                    <a href="../index.html" class="text-lg text-white font-bold hover:underline">HOME</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="about.html" class="text-lg text-white font-bold hover:underline">ABOUT</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="member.html" class="text-lg text-white font-bold hover:underline">MEMBER</a>
+                </li>
+                <li class="my-6 mx-4">
+                    <a href="gallery.html" class="text-lg text-white font-bold hover:underline">GALLERY</a>
+                </li>
+             </ul>
+        </span>
+        <ul name="navRes" class="bg-dark-blue mx-4 max-w-[500px] rounded-lg text-center justify-center mx-[30px] px-[150px] py-10 absolute hidden">
+            <li class="my-6 mx-4">
+                <a href="../index.html" class="text-lg text-white font-bold hover:underline">HOME</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="about.html" class="text-lg text-white font-bold hover:underline">ABOUT</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="member.html" class="text-lg text-white font-bold hover:underline">MEMBER</a>
+            </li>
+            <li class="my-6 mx-4">
+                <a href="gallery.html" class="text-lg text-white font-bold hover:underline">GALLERY</a>
+            </li>
+         </ul>
+    </nav>
+    <!-- Akhir Navbar -->
 
+    <!-- Hero Section -->
+    <section>
+        <h1 class="text-dark-blue font-bold text-4xl mt-10 text-center inset-0">OUR MEMBER</h1>
+        <div class="my-10 mx-10">
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/arya.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Arya</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://github.com/aryaaprdna"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/rafli.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Rafli</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://github.com/ryfless"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/pras.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Pras</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://www.instagram.com/prascx?igsh=MTg4dG90NGFzcjMwYw=="><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/david.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">David</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="http://linktr.ee/reStarshyy"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/mikun.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Mikun</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://www.instagram.com/ookamikun_?igsh=ZGUzMzM3NWJiOQ=="><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/babay.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Babay</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://www.instagram.com/p/C92Mv95SrBCe731yuJpPXj5aA5hnuzVko49vUM0/?igsh=bHMybDNkZWl6N3E0"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/ridha.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Ridha</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://heylink.me/3kadal"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+            <div class="flex flex-row bg-white py-6 rounded-lg mb-6 drop-shadow-lg text-wrap">
+                <img src="../img/duds.png" alt="" class="px-6">
+                <span class="flex-col">
+                    <h1 class="text-2xl font-bold inset-0 text-center">Duds</h1>
+                    <p>Programmer | Student</p>
+                    <p></p>
+                    <a target="_blank" href="https://www.instagram.com/parzival_e10?igsh=Nng2dTkydnM3cHRv"><button class="bg-dark-blue text-white rounded-full px-10 py-1 mt-10">More</button></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- Footer -->
+    <section class="mt-20">
+        <div class="ml-6">
+            <span class="flex flex-row">
+                <img src="../img/instagram-logo.png" alt="" class="max-w-[40px] lg:max-w-[70px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-xl mt-4">@kelompokoleng</p>
+            </span>
+            <span class="flex flex-row mt-4">
+                <img src="../img/discord-logo.png" alt="" class="max-w-[40px] lg:max-w-[70px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-xl mt-4">Warkop Oleng</p>
+            </span>
+        </div>
+        <span class="flex flex-row justify-center">
+            <img src="../img/logo-footer.png" alt="" class="max-w-[100px]">
+            <p class="text-white text-center font-bold text-sm my-10">Made With ❤️ by Kelompok Oleng</p>
+        </span>
+    </section>
+    <!-- Akhir Footter -->
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul[name="navRes"]');
+
+            e.name === 'menu' ? (e.name = "close", list.classList.remove('hidden')) : (e.name = "menu" , list.classList.add('hidden'))
+        }
+    </script>
 </body>
 </html>
