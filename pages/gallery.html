@@ -47,5 +47,52 @@
          </ul>
     </nav>
     <!-- Akhir Navbar -->
+
+    <!-- Hero Section -->
+    <section>
+        <h1 class="text-dark-blue font-bold text-4xl mt-10 text-center inset-0">GALLERY</h1>
+        <img src="../img/image-1.png" alt="" class="mt-10 mx-auto drop-shadow-lg">
+        <div class="mt-10">
+        <div class="flex flex-row justify-center">
+            <span class="flex-col mr-10">
+                <img src="../img/image-2.png" alt="" class="drop-shadow-lg">
+                <img src="../img/image-3.png" alt="" class="mt-10 drop-shadow-lg">
+            </span>
+            <img src="../img/image-4.png" alt="" class="drop-shadow-lg">
+        </div>
+        </div>
+        <div class="flex flex-row justify-center mt-10">
+            <img src="../img/image-5.png" alt="" class="mr-4 drop-shadow-lg">
+            <img src="../img/image-6.png" alt="" class="drop-shadow-lg">
+        </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- Footer -->
+    <section class="mt-20">
+        <div class="ml-6">
+            <span class="flex flex-row">
+                <img src="../img/instagram-logo.png" alt="" class="max-w-[40px] lg:max-w-[50px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-md mt-4">@kelompokoleng</p>
+            </span>
+            <span class="flex flex-row mt-4">
+                <img src="../img/discord-logo.png" alt="" class="max-w-[40px] lg:max-w-[50px]">
+                <p class="text-white ml-4 text-center mt-2 text-sm lg:text-md mt-4">Warkop Oleng</p>
+            </span>
+        </div>
+        <span class="flex flex-row justify-center">
+            <img src="../img/logo-footer.png" alt="" class="max-w-[100px]">
+            <p class="text-white text-center font-bold text-sm my-10">Made With ❤️ by Kelompok Oleng</p>
+        </span>
+    </section>
+    <!-- Akhir Footer -->
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul[name="navRes"]');
+
+            e.name === 'menu' ? (e.name = "close", list.classList.remove('hidden')) : (e.name = "menu" , list.classList.add('hidden'))
+        }
+    </script>
 </body>
 </html>
